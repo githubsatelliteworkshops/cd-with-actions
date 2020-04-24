@@ -1,5 +1,5 @@
-<h1 align="center">Workshop Title</h1>
-<h5 align="center">@facilitators</h3>
+<h1 align="center">CD With Actions</h1>
+<h5 align="center">@decyjphr</h3>
 
 <p align="center">
   <a href="#mega-prerequisites">Prerequisites</a> •  
