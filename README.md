@@ -27,6 +27,15 @@
     - Note: You will need to sign up for S3 in addition to your normal account, if you haven't already
 1. Both [AWS Secret key and AWS Access Key](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 
+#### Optional (For the Full Experience)
+
+1. Install [Docker](https://www.docker.com/) locally on your machine
+    - [Windows](https://docs.docker.com/docker-for-windows/install/)
+    - [Mac](https://docs.docker.com/docker-for-mac/install/)
+    - [Linux](https://docs.docker.com/v17.12/install/#server)
+1. [Configure](https://help.github.com/en/github/managing-packages-with-github-package-registry/configuring-docker-for-use-with-github-package-registry#authenticating-to-github-package-registry) Docker use the GitHub Package Registry
+
+
 ## :books: Resources
 - [GitHub Actions Documentation](https://help.github.com/en/actions)
 - [GitHub Actions Marketplace](https://github.com/marketplace?type=actions)
