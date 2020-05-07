@@ -1,0 +1,49 @@
+Transform: 'AWS::Serverless-2016-10-31'
+Resources:
+
+  MainFunction:
+    # This resource creates a Lambda function.
+    Type: 'AWS::Serverless::Function'
+    
+    Properties:
+      
+      # This function uses the Nodejs v12 runtime.
+      Runtime: nodejs12.x
+        
+      # This is the Lambda function's handler.
+      Handler: handler.lambdaHandler
+      
+      # The location of the Lambda function code.
+      CodeUri: .
+      
+      # Event sources to attach to this function. In this case, we are attaching
+      # one API Gateway endpoint to the Lambda function. The function is
+      # called when a HTTP request is made to the API Gateway endpoint.
+      Events:
+
+        MainPage:
+            # Define an API Gateway endpoint that responds to HTTP GET at /thumbnail
+            Type: Api
+            Properties:
+                Path: /
+                Method: GET
+        CSSFile:
+            # Define an API Gateway endpoint that responds to HTTP GET at /thumbnail
+            Type: Api
+            Properties:
+                Path: /public/index.css
+                Method: GET
+        JSFile:
+            # Define an API Gateway endpoint that responds to HTTP GET at /thumbnail
+            Type: Api
+            Properties:
+                Path: /public/main.js
+                Method: GET
+
+Outputs:
+  # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
+  # Find out more about other implicit resources you can reference within SAM
+  # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
+  StagingUrl:
+    Description: "Staging URL"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
