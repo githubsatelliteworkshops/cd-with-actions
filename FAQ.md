@@ -21,3 +21,15 @@
   - A: The types condition means it will only trigger off the `pull_request.labeled event`. Further reading on types can be [found here](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onevent_nametypes). More info on the `pull_request` event's types can be [found here](https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request)
 - Q: What AWS resources do we need to remove in order to avoid billing after the workshop?
   - A: S3 bucket, and stop the Lambda function (AWS Services -> Lambda -> Functions). You can delete the stack in CloudFormation too
+  
+  ---
+  
+  ## Resource slide links
+  
+- [GitHub Actions - CI Learning Lab](https://lab.github.com/githubtraining/github-actions:-continuous-integration)
+- [GitHub Actions - GitHub Package Registry (GPR) Learning Lab](https://lab.github.com/githubtraining/github-actions:-publish-to-github-packages)
+- [GitHub Actions - CD with AWS Learning Lab](https://lab.github.com/githubtraining/github-actions:-continuous-delivery-with-aws)
+- [GitHub Actions help documentation](https://help.github.com/en/actions)
+- [GitHub Actions on the GitHub Marketplace](https://github.com/marketplace?type=actions)
+- [](https://github.com/githubsatelliteworkshops/cd-with-actions)
+  
