@@ -30,6 +30,4 @@
 - [GitHub Actions - GitHub Package Registry (GPR) Learning Lab](https://lab.github.com/githubtraining/github-actions:-publish-to-github-packages)
 - [GitHub Actions - CD with AWS Learning Lab](https://lab.github.com/githubtraining/github-actions:-continuous-delivery-with-aws)
 - [GitHub Actions help documentation](https://help.github.com/en/actions)
-- [GitHub Actions on the GitHub Marketplace](https://github.com/marketplace?type=actions)
-- [](https://github.com/githubsatelliteworkshops/cd-with-actions)
-  
+- [GitHub Actions on the GitHub Marketplace](https://github.com/marketplace?type=actions)  
