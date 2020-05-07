@@ -10,8 +10,8 @@
 
 ## :mega: Prerequisites
 1. [GitHub account](https://github.com/join) with a [verified email address](https://help.github.com/en/articles/verifying-your-email-address)
-1. [Install GitHub Learning Lab](https://lab.github.com/docs/install) on your account
-1. Sign up for the [GitHub Actions](https://github.com/features/actions/signup/?account=)
+1. [Install GitHub Learning Lab](https://lab.github.com/docs) on your account
+1. Sign up for the [GitHub Actions](https://github.com/features/actions/)
 1. Sign up for the [GitHub Package Registry](https://github.com/features/package-registry)
 1. Create a [GitHub Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for your account.
 1. [AWS Account](https://portal.aws.amazon.com/billing/signup?p=s3&cp=bn&ad=p#/start) 
